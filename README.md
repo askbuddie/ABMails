@@ -83,7 +83,7 @@
       <a href="https://anuraghazra.github.io">
       <img src="https://avatars1.githubusercontent.com/u/35374649?s=460&v=3" width="100px;" alt="Anurag Hazra"/>
       <br />
-      <sub><b>Hemanta Pokharel</b></sub></a>
+      <sub><b>Anurag Hazra</b></sub></a>
       <br />
     </td>
     <td align="center">
