@@ -45,8 +45,8 @@
 
 Selenium requires a driver to interface with the chosen browser. 
 
-- For Firefox
-Firefox requires geckodriver, which needs to be installed .
+### For Firefox
+- Firefox requires geckodriver, which needs to be installed .
 
   - Windows
  Download and extract the zip file of [geckodriver](https://github.com/mozilla/geckodriver/releases)
@@ -60,8 +60,8 @@ Make sure to give executive permission to the geckodriver with the command;
 
 -----
 
-- For Chrome
-Chrome requires chromedriver,which needs to be installed .
+### For Chrome
+- Chrome requires chromedriver,which needs to be installed .
 
   -Windows
 Download and extract the zip file of [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
