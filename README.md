@@ -15,9 +15,11 @@
  * https://www.temp-mail.org
  * https://www.mailsac.com
  
+ ----------
+ 
 :email: FEATURES
  --------
- 1.ABMails can create e-mail with 11 different domains,ie;
+ 1. ABMails can create e-mail with 11 different domains,ie;
 
  * @mailsac.com
  * @safe-planet.com
@@ -31,43 +33,45 @@
  * @planet-travel.club
  * @skymailapp.com
 
- 2.Allow you to create an e-mail with custom name and domain.
+ 2. Allow you to create an e-mail with custom name and domain.
 
- 3.Instantly create a random e-mail with random name and domain.
+ 3. Instantly create a random e-mail with random name and domain.
 
- 4.Allow you to save all mails received in a text file.
+ 4. Allow you to save all mails received in a text file.
+ 
+ ----------
  
  ##  :warning: Requirements
 
 Selenium requires a driver to interface with the chosen browser. 
 
-* For Firefox
+# For Firefox
 Firefox requires geckodriver, which needs to be installed .
 
-# Windows
+* Windows
 Download and extract the zip file of [geckodriver](https://github.com/mozilla/geckodriver/releases)
 and install geckodriver.exe in your windows machine. 
 
-# Linux
+* Linux
 Download and extract the zip file of [geckodriver](https://github.com/mozilla/geckodriver/releases)
 Copy the extracted file in /usr/bin or /usr/local/bin.
 Make sure to give executive permission to the geckodriver with the command;
 '''chmod +x geckodriver'''
 
-* For Chrome
+# For Chrome
 Chrome requires chromedriver,which needs to be installed .
 
-# Windows
+* Windows
 Download and extract the zip file of [geckodriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 and install chromedriver.exe in your windows machine.
 
-# Linux
+* Linux
 Download and extract the zip file of [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 Copy the extracted file in /usr/bin or /usr/local/bin.
 Make sure to give executive permission to the geckodriver with the command;
 '''chmod +x chromedriver'''
 
-
+----------
 
 ## :floppy_disk: Get Started
 
@@ -91,7 +95,7 @@ $ python3 abmails.py
 
 now ABMails expects an arguments to be passed which defines what proccess you are doing.
 
-# Arguments
+* Arguments
      
      [ Basic Options ]
 
@@ -114,6 +118,8 @@ optional arguments , you can leave it or pass it according to your wish.
 
 > Eg; ./abmails.py --receive -n -d
  
+ ----------
+ 
  :ab: ASK BUDDIE
  ----------
  ABMails is a program created by [AskBuddie Open Source Program](https://github.com/askbuddie) Teams.
@@ -123,6 +129,8 @@ optional arguments , you can leave it or pass it according to your wish.
  of technology enthusiast people to provide support in less time. 
 
  [Join our community on Facebook](https://www.facebook.com/groups/askbuddie)
+
+----------
 
 ## :octocat: Authors
 
@@ -145,6 +153,8 @@ optional arguments , you can leave it or pass it according to your wish.
     </td>
   </tr>
 </table>
+
+----------
 
 ## :stars: Contributors
 <table>
