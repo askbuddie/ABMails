@@ -2,8 +2,8 @@
 
 ###  **KEEP YOUR REAL E-MAIL CLEAN AND SECURE**
 
-ABOUT
------
+:information_source:ABOUT
+ -----
  Ask Buddie Mails / ABMails helps you to create temporary or
  disposable e-mail with a certain lifetime.It does not require 
  registration so you can do anything instantly and save your precious 
