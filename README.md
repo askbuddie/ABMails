@@ -40,12 +40,12 @@
  :ab: ASK BUDDIE
  ----------
  ABMails is a program created by [AskBuddie Open Source Program](https://github.com/askbuddie) Teams.
- [Ask Buddie](www.askbuddie.com) is a technology community found in May 16, 2017. Since our 
+ [Ask Buddie](https://www.askbuddie.com) is a technology community found in May 16, 2017. Since our 
  founding, we have been providing online solutions and guidance to our 
  users related to technology. Our mission is to create a large community
  of technology enthusiast people to provide support in less time. 
 
- [Join our community on Facebook](www.facebook.com/groups/askbuddie)
+ [Join our community on Facebook](https://www.facebook.com/groups/askbuddie)
 
 ## :octocat: Authors
 
