@@ -16,7 +16,7 @@ banner_nocolor = \
   / ___ |(__  ) ,<    / /_/ / /_/ / /_/ / /_/ / /  __/
  /_/  |_/____/_/|_|  /_____/\__,_/\__,_/\__,_/_/\___/ 
                                          Mails v.1.0
-Keep Your email away from spam and hacks    
+ KEEP YOUR REAL E-MAIL CLEAN AND SECURE    
 ----------------------------------------    '''
 
 list_color = ["yellow","red","blue","white","green","cyan","magenta"]
