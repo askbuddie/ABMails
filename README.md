@@ -48,28 +48,28 @@ Selenium requires a driver to interface with the chosen browser.
 ### For Firefox
 Firefox requires geckodriver, which needs to be installed .
 
-Windows
-*Download and extract the zip file of [geckodriver](https://github.com/mozilla/geckodriver/releases)
+#### Windows
+* Download and extract the zip file of [geckodriver](https://github.com/mozilla/geckodriver/releases)
 and install geckodriver.exe in your windows machine. 
 
-Linux
-*Download and extract the zip file of [geckodriver](https://github.com/mozilla/geckodriver/releases)
+#### Linux
+* Download and extract the zip file of [geckodriver](https://github.com/mozilla/geckodriver/releases)
 Copy the extracted file in /usr/bin or /usr/local/bin.
 Make sure to give executive permission to the geckodriver with the command;
-'''chmod +x geckodriver'''
+```chmod +x geckodriver```
 
 ### For Chrome
 Chrome requires chromedriver,which needs to be installed .
 
-Windows
-*Download and extract the zip file of [geckodriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+#### Windows
+* Download and extract the zip file of [geckodriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 and install chromedriver.exe in your windows machine.
 
-Linux
-*Download and extract the zip file of [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+#### Linux
+* Download and extract the zip file of [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 Copy the extracted file in /usr/bin or /usr/local/bin.
 Make sure to give executive permission to the geckodriver with the command;
-'''chmod +x chromedriver'''
+```chmod +x chromedriver```
 
 ----------
 
@@ -95,7 +95,7 @@ $ python3 abmails.py
 
 now ABMails expects an arguments to be passed which defines what proccess you are doing.
 
-### Arguments
+### Arguments;
      
      [ Basic Options ]
 
