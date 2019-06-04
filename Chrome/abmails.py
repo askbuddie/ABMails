@@ -370,10 +370,13 @@ def receive_mail():
 		os.system('clear')
 		banner()
 		print('\n')
-		if save_mail == True:
-			write_mails(mails)
-			changed = 0
-			print(colored('[+] saving all received mails on '+username+selected_domain+'\n','magenta'))
+		try:
+			if save_mail == True:
+				write_mails(mails)
+				changed = 0
+				print(colored('[+] saving all received mails on '+username+selected_domain+'\n','magenta'))
+		except Exception:
+			print(colored('[-] Failled to save mails on '+username+selected_domain+'\n','red'))
 		print(colored('[+] Visit Our Site: www.askbuddie.com\n[+] Join our community on Facebook: www.facebook.com/groups/askbuddie\n[+] Like our Facebook page: www.facebook.com/askbuddie\n[+] For more amazing projects: https://github.com/askbuddie','blue'))
 		print(colored('\nThanks for using Ask Buddie Mails...\n\n','red'))
 
