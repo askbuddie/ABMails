@@ -36,3 +36,19 @@ ABOUT
  3.Instantly create a random e-mail with random name and domain.
 
  4.Allow you to save all mails received in a text file.
+ 
+ ASK BUDDIE
+ ----------
+  ABMails is a program created by AskBuddie Open Source Program Teams.
+ Ask Buddie is a technology community found in May 16, 2017. Since our 
+ founding, we have been providing online solutions and guidance to our 
+ users related to technology. Our mission is to create a large community
+ of technology enthusiast people to provide support in less time. 
+
+ Visit: www.askbuddie.com
+
+ Join our community on Facebook: www.facebook.com/groups/askbuddie
+ Like our Facebook page: www.facebook.com/askbuddie
+
+ GitHub: https://github.com/askbuddie
+ 
