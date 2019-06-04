@@ -162,9 +162,9 @@ optional arguments , you can leave it or pass it according to your wish.
   <tr>
     <td align="center">
       <a href="temp">
-      <img src="temp" width="100px;" alt="Anurag Hazra"/>
+      <img src="https://avatars3.githubusercontent.com/u/51370579?s=400&v=4" width="100px;" alt="Muna Puri"/>
       <br />
-      <sub><b>Anurag Hazra</b></sub></a>
+      <sub><b>Muna Puri</b></sub></a>
       <br />
     </td>
     <td align="center">
