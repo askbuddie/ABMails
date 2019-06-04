@@ -45,10 +45,10 @@ ABOUT
  users related to technology. Our mission is to create a large community
  of technology enthusiast people to provide support in less time. 
 
- [Visit] (www.askbuddie.com)
+ [Visit](www.askbuddie.com)
 
- [Join our community on Facebook] (www.facebook.com/groups/askbuddie)
- [Like our Facebook page] (www.facebook.com/askbuddie)
+ [Join our community on Facebook](www.facebook.com/groups/askbuddie)
+ [Like our Facebook page](www.facebook.com/askbuddie)
 
- [GitHub] (https://github.com/askbuddie)
+ [GitHub](https://github.com/askbuddie)
  
