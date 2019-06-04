@@ -2,7 +2,7 @@
 
 ###  **KEEP YOUR REAL E-MAIL CLEAN AND SECURE**
 
-:information_source:ABOUT
+:information_source: ABOUT
  -----
  Ask Buddie Mails / ABMails helps you to create temporary or
  disposable e-mail with a certain lifetime.It does not require 
@@ -15,7 +15,7 @@
  * https://www.temp-mail.org
  * https://www.mailsac.com
  
- FEATURES
+:email: FEATURES
  --------
  1.ABMails can create e-mail with 11 different domains,ie;
 
@@ -37,7 +37,7 @@
 
  4.Allow you to save all mails received in a text file.
  
- ASK BUDDIE
+ :ab: ASK BUDDIE
  ----------
  ABMails is a program created by [AskBuddie Open Source Program](https://github.com/askbuddie) Teams.
  [Ask Buddie](www.askbuddie.com) is a technology community found in May 16, 2017. Since our 
