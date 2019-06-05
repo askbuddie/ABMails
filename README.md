@@ -50,7 +50,7 @@ Selenium requires a driver to interface with the chosen browser.
 
   - Windows
     - Download and extract the zip file of [geckodriver](https://github.com/mozilla/geckodriver/releases)
-     and install geckodriver.exe in your windows machine. 
+     and copy geckodriver.exe file in c://windows.
 
   - Linux
     - Download and extract the zip file of [geckodriver](https://github.com/mozilla/geckodriver/releases)
@@ -64,7 +64,7 @@ Selenium requires a driver to interface with the chosen browser.
 
   - Windows
     - Download and extract the zip file of [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
-     and install chromedriver.exe in your windows machine.
+     and copy chromedriver.exe file in c://windows.
 
   - Linux
     - Download and extract the zip file of [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
@@ -88,7 +88,7 @@ git clone https://github.com/askbuddie/ABMails.git
 pip install -r requirements.txt
 ```
 
-* when you have the cloned the repo, simply run the .py file in terminal .
+* when you have cloned the repo, simply run the .py file in terminal .
 
 ```bash
 $ python3 abmails.py
