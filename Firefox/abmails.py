@@ -147,7 +147,7 @@ def search_mails_tempmail():
         try:
             mail['msg'] = inboxdata.find_element_by_css_selector('div.inbox-data-content > div.inbox-data-content-intro > div > div > div').text
         except Exception:
-            mail['msg'] = inboxdata.find_element_by_css_selector('div.inbox-data-content > div.inbox-data-content-intro > div > div > div').text
+            mail['msg'] = inboxdata.find_element_by_css_selector('div.inbox-data-content > div.inbox-data-content-intro > div > div ').text
         mails.append(mail)  
     return mails
 
