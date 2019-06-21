@@ -227,7 +227,7 @@ url = 'https://temp-mail.org/en/option/change/'
 page = requests.get(url)
 soup = BeautifulSoup(page.content,'html.parser')
 domains = [option.text for option in soup.find_all('option')]
-
+domains.append('@mailsac.com')
 
 def select_domain():	
 	print("\nList of available domains...")
