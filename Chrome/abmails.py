@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.select import Select
 from termcolor import colored
 import time,random,string,sys,os,platform
+from bs4 import BeautifulSoup
+import requests
 
 #----Texts----
 
@@ -224,8 +225,11 @@ def print_mails(mails):
         print('_'*80)
 
 # Select Domain
-domains = ['@mailsac.com','@safe-planet.com','@fastair.info','@air-blog.com','@bizsearch.info','@skymailgroup.com',
-               '@eaglemail.top','@airsport.top','@theskymail.com','@planet-travel.club','@skymailapp.com']
+url = 'https://temp-mail.org/en/option/change/'
+page = requests.get(url)
+soup = BeautifulSoup(page.content,'html.parser')
+domains = [option.text for option in soup.find_all('option')]
+domains.append('@mailsac.com')
 
 def select_domain():	
 	print("\nList of available domains...")
