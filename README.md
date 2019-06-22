@@ -73,7 +73,7 @@ git clone https://github.com/askbuddie/ABMails.git
 * you also have to install the dependencies for running ABMails by running
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 * when you have cloned the repo, simply run the .py file in terminal .
