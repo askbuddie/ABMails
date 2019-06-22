@@ -19,19 +19,7 @@
  
 :email: FEATURES
  --------
- 1. ABMails can create e-mail with 11 different domains,ie;
-
- * @mailsac.com
- * @safe-planet.com
- * @fastair.info
- * @air-blog.com
- * @bizsearch.info
- * @skymailgroup.com
- * @eaglemail.top
- * @airsport.top
- * @theskymail.com
- * @planet-travel.club
- * @skymailapp.com
+ 1. ABMails can create e-mail with more than 10 different domains.
 
  2. Allow you to create an e-mail with custom name and domain.
 
