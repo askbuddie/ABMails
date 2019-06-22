@@ -221,16 +221,13 @@ def print_mails(mails):
         print(colored('\n'+mail['msg'],'yellow'))
         print('_'*80)
 
-# Select Domain
-url = 'https://temp-mail.org/en/option/change/'
-page = requests.get(url)
-soup = BeautifulSoup(page.content,'html.parser')
-domains = [option.text for option in soup.find_all('option')]
-domains.append('@mailsac.com')
-
-def select_domain():	
+def select_domain():
+        driver.get('https://temp-mail.org/en/option/change/')
+        domains = [option.text for option in driver.find_elements_by_tag_name('option')]
+        domains.append('@mailsac.com')
+        
 	print("\nList of available domains...")
-	for i,domain in enumerate(domains):
+        for i,domain in enumerate(domains):
 		print("{}. {}".format(i+1,domain))
 	d = input("\nChoose any one domain among above 1-10:- ")
 	if d == '0':
