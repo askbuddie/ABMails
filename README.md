@@ -103,9 +103,9 @@ You are supposed to pass only one argument from Basic options. Pass the optional
 options if only '--receive' is taken from basic options. Optional options are 
 optional arguments , you can leave it or pass it according to your wish.
 
-```Usage: ./abmails.py [ Basic Option ] [ Optional Option(s) ]```
+```Usage: python3 abmails.py [ Basic Option ] [ Optional Option(s) ]```
 
-> Eg: ./abmails.py --receive -n -d
+> Eg: python3 abmails.py --receive -n -d
  
  ----------
  
