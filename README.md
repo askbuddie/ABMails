@@ -129,7 +129,8 @@ optional arguments , you can leave it or pass it according to your wish.
 
 ## :octocat: Primary Contributor
 
-- **[Hemant]**
+- **[Hemant Pokharel]**
+- https://github.com/Hemant-H9
 
 ----------
 
