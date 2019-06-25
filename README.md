@@ -121,12 +121,22 @@ optional arguments , you can leave it or pass it according to your wish.
 
 ----------
 
-## :octocat: Authors
+## :octocat: Author
 
+- **Ask Buddie**
+
+-----------
+
+## :octocat: Primary Contributor
+
+- **[Hemant]**
+
+----------
+
+## :stars: Contributors
 <table>
   <tr>
-    </td>
-    <td align="center">
+   <td align="center">
       <a href="https://github.com/Hemant-H9">
       <img src="https://avatars3.githubusercontent.com/u/35365105?s=460&v=3" width="100px;" alt="Hemanta Pokharel"/>
       <br />
@@ -140,14 +150,6 @@ optional arguments , you can leave it or pass it according to your wish.
       <sub><b>Rohit Joshi</b></sub></a>
       <br />
     </td>
-  </tr>
-</table>
-
-----------
-
-## :stars: Contributors
-<table>
-  <tr>
     <td align="center">
       <a href="https://github.com/muna-kopila">
       <img src="https://avatars3.githubusercontent.com/u/51370579?s=400&v=4" width="100px;" alt="Muna Puri"/>
