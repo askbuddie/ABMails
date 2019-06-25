@@ -4,8 +4,6 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.select import Select
 from termcolor import colored
 import time,random,string,sys,os,platform
-from bs4 import BeautifulSoup
-import requests
 
 #----Texts----
 
@@ -217,38 +215,35 @@ else:
 
 # Print the received mails on screen
 def print_mails(mails):
-    for mail in mails:
-        print("\nFrom: ",colored(mail['sender'],'red'))
-        print("Time: ",colored(mail['time'],'blue'))
-        print("                       ",colored(mail['subject'],'green'))
-        print(colored('\n'+mail['msg'],'yellow'))
-        print('_'*80)
+        for mail in mails:
+                print("\nFrom: ",colored(mail['sender'],'red'))
+                print("Time: ",colored(mail['time'],'blue'))
+                print("                       ",colored(mail['subject'],'green'))
+                print(colored('\n'+mail['msg'],'yellow'))
+                print('_'*80)
 
-# Select Domain
-url = 'https://temp-mail.org/en/option/change/'
-page = requests.get(url)
-soup = BeautifulSoup(page.content,'html.parser')
-domains = [option.text for option in soup.find_all('option')]
-domains.append('@mailsac.com')
+def select_domain():
+        driver.get('https://temp-mail.org/en/option/change/')
+        domains = [option.text for option in driver.find_elements_by_tag_name('option')]
+        domains.append('@mailsac.com')
 
-def select_domain():	
-	print("\nList of available domains...")
-	for i,domain in enumerate(domains):
-		print("{}. {}".format(i+1,domain))
-	d = input("\nChoose any one domain among above 1-10:- ")
-	if d == '0':
-		select_zero = True
-	try:
-		int(d)
+        print("\nList of available domains...")
+        for i,domain in enumerate(domains):
+                print("{}. {}".format(i+1,domain))
+        d = input("\nChoose any one domain among above 1-10:- ")
+        if d == '0':
+                select_zero = True
+        try:
+                int(d)
 
-	except Exception:
-		return random.choice(domains)
-	
-	else:
-		if int(d) in range(1,len(domains)+1):
-			return domains[int(d)-1] 
-		else:
-			return random.choice(domains)
+        except Exception:
+                return random.choice(domains)
+
+        else:
+                if int(d) in range(1,len(domains)+1):
+                        return domains[int(d)-1] 
+                else:
+                        return random.choice(domains)
 
 # Receiving mails main function
 def receive_mail():
