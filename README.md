@@ -172,6 +172,13 @@ optional arguments , you can leave it or pass it according to your wish.
       <sub><b>Ashish Yadav</b></sub></a>
       <br />
     </td>
+   <td align="center">
+      <a href="https://github.com/pr0d33p">
+      <img src="https://avatars0.githubusercontent.com/u/29733866?s=460&v=4" width="100px;" alt="Pradeep Bhattarai"/>
+      <br />
+      <sub><b>Pradeep Bhattarai</b></sub></a>
+      <br />
+    </td>
   </tr>
 </table>
 
