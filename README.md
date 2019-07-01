@@ -106,8 +106,16 @@ optional arguments , you can leave it or pass it according to your wish.
 ```Usage: python3 abmails.py [ Basic Option ] [ Optional Option(s) ]```
 
 > Eg: python3 abmails.py --receive -n -d
+
+----------
+
+## :heart: Contribution
+You wanna contribute to the project? Great to hear that.
+
+please refer to our Contribution Guide [here](./CONTRIBUTING.md)
+
  
- ----------
+----------
  
  :ab: ASK BUDDIE
  ----------
