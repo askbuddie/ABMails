@@ -179,6 +179,13 @@ optional arguments , you can leave it or pass it according to your wish.
       <sub><b>Pradeep Bhattarai</b></sub></a>
       <br />
     </td>
+    <td algin="center">
+      <a href="https://github.com/Aju100">
+      <img src="https://secure.gravatar.com/avatar/6ad55cb3bcd2865ce33d0661ea474434?s=200" width="100px;" alt="Aju Tamang"/>
+      <br/>
+      <sub><b>Aju Tamang</b></sub></a>
+      <br/>
+    </td>
   </tr>
 </table>
 
