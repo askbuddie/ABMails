@@ -244,6 +244,13 @@ def select_domain():
                         return domains[int(d)-1] 
                 else:
                         return random.choice(domains)
+# Random domain selection
+def random_domain():
+	driver.get('https://temp-mail.org/en/option/change/')
+	domains = [option.text for option in driver.find_elements_by_tag_name('option')]
+	domains.append('@mailsac.com')
+	
+	return random.choice(domains)
 
 # Receiving mails main function
 def receive_mail():
@@ -261,7 +268,7 @@ def receive_mail():
 	if custom_domain == True:
 		selected_domain = select_domain()
 	else:
-		selected_domain = random.choice(domains)
+		selected_domain = random_domain()
 	
 	# Ask for refresh time if user want a custom refresh time
 	if custom_time == True:
