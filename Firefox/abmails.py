@@ -223,27 +223,37 @@ def print_mails(mails):
         print('_'*80)
 
 # Select Domain
-domains = ['@mailsac.com','@safe-planet.com','@fastair.info','@air-blog.com','@bizsearch.info','@skymailgroup.com',
-               '@eaglemail.top','@airsport.top','@theskymail.com','@planet-travel.club','@skymailapp.com']
+def select_domain():
+        driver.get('https://temp-mail.org/en/option/change/')
+        domains = [option.text for option in driver.find_elements_by_tag_name('option')]
+        domains.append('@mailsac.com')
 
-def select_domain():	
-	print("\nList of available domains...")
-	for i,domain in enumerate(domains):
-		print("{}. {}".format(i+1,domain))
-	d = input("\nChoose any one domain among above 1-10:- ")
-	if d == '0':
-		select_zero = True
-	try:
-		int(d)
+        print("\nList of available domains...")
+        for i,domain in enumerate(domains):
+                print("{}. {}".format(i+1,domain))
+        d = input("\nChoose any one domain among above 1-10:- ")
+        if d == '0':
+                select_zero = True
+        try:
+                int(d)
 
-	except Exception:
-		return random.choice(domains)
+        except Exception:
+                return random.choice(domains)
+
+        else:
+                if int(d) in range(1,len(domains)+1):
+                        return domains[int(d)-1] 
+                else:
+                        return random.choice(domains)
+                        
+# Random domain selection
+def random_domain():
+	driver.get('https://temp-mail.org/en/option/change/')
+	domains = [option.text for option in driver.find_elements_by_tag_name('option')]
+	domains.append('@mailsac.com')
 	
-	else:
-		if int(d) in range(1,len(domains)+1):
-			return domains[int(d)-1] 
-		else:
-			return random.choice(domains)
+	return random.choice(domains)
+
 
 # Receiving mails main function
 def receive_mail():
@@ -261,7 +271,7 @@ def receive_mail():
 	if custom_domain == True:
 		selected_domain = select_domain()
 	else:
-		selected_domain = random.choice(domains)
+		selected_domain = random_domain()
 	
 	# Ask for refresh time if user want a custom refresh time
 	if custom_time == True:
