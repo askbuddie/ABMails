@@ -146,8 +146,8 @@ please refer to our Contribution Guide [here](./CONTRIBUTING.md)
 <table>
   <tr>
    <td align="center">
-      <a href="https://github.com/Hemant-H9">
-      <img src="https://avatars3.githubusercontent.com/u/35365105?s=460&v=3" width="100px;" alt="Hemanta Pokharel"/>
+      <a href="https://github.com/Hemantapkh">
+      <img src="https://avatars2.githubusercontent.com/u/58947310?s=460&v=4" width="100px;" alt="Hemanta Pokharel"/>
       <br />
       <sub><b>Hemanta Pokharel</b></sub></a>
       <br />
