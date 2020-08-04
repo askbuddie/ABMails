@@ -138,7 +138,7 @@ please refer to our Contribution Guide [here](./CONTRIBUTING.md)
 ## :octocat: Primary Contributor
 
 - **[Hemant Pokharel]**
-- https://github.com/Hemant-H9
+- https://github.com/Hemantapkh
 
 ----------
 
